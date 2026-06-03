@@ -1,54 +1,45 @@
-# Playwright Automation Framework
+# Playwright Automation Framework with NUnit (C#)
 
 ## Overview
-This project is a UI automation framework built using:
-- C#
+
+This project is a UI Automation Testing Framework built using:
+
 - Playwright
+- C#
 - NUnit
+- .NET
+- Page Object Model (POM)
+- Reqnroll (Optional for BDD)
 
-## Project Structure
+The framework is designed for scalable, maintainable, and reusable automated UI testing.
 
-text
-Base1/
-Hooks/
-pages1/
-Tests1/
-Runner.cs
+---
 
+## Technologies Used
+
+| Technology | Version |
+|------------|-----------|
+| .NET | 8.0 |
+| Playwright | Latest |
+| NUnit | Latest |
+| C# | Latest |
+| Reqnroll | Latest |
+
+---
 
 ## Prerequisites
-- .NET 8 SDK
+
+Before running the project, ensure the following are installed:
+
 - Visual Studio 2022/2026
-- Playwright
+- .NET SDK 8.0 or higher
+- Git
 
-## Installation
+Verify installation:
 
-bash
-git clone <repository-url>
-cd playwright_scripting
-dotnet restore
-playwright install
+```bash
+dotnet --version
+git --version
 
-
-## Run Tests
-
-bash
-dotnet test
-
-
-## Framework Components
-
-### Pages
-Contains Page Object classes.
-
-### Hooks
-Browser setup and teardown.
-
-### Tests
-Test cases and execution logic.
-
-### Base
-Common reusable methods.
-
-## Author
-Naveen
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
